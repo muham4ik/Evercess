@@ -15,7 +15,7 @@ const page = () => {
         </ul>
   
     <section>
-        <div className="section_container mx-auto sm:px-2">
+        <div className="section_container mx-auto sm:px-8">
             <div className="hero_s flex flex-col gap-[34px] pt-[252px] xl:pt-[110px] pl-[345px] pb-[311px] xl:pb-[250px]">
                 <h1 className='text-[75px] xl:text-[70px] not-italic font-semibold leading-[97%] tracking-wide-3.3 uppercase text-[#fff]   '>
                 потрясающий вкус Cola*
@@ -31,6 +31,7 @@ const page = () => {
             </div>
         </div>
     </section>
+
     </div>
    </div>
    </>
