@@ -1,0 +1,15 @@
+.content-wrapper {
+    width: 100%;  /* Make sure the wrapper fills its container */
+    max-width: 100%; /* Set a max width */
+    height: 600px; /* Fixed height to maintain aspect ratio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}

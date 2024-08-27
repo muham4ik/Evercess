@@ -1,0 +1,75 @@
+.swiperContainer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .years {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #ccc;
+    z-index: 1;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #0070f3;
+    transition: width 0.3s ease;
+  }
+  
+  .year {
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 2;
+    margin-top: 12px; /* Adjust to fine-tune spacing between year and line */
+    text-align: center;
+  }
+  
+  .year::before {
+    content: '';
+    position: absolute;
+    top: -18px; /* Position the diamond precisely in the middle of the line */
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+  }
+  
+  .activeYear::before {
+    background-color: #0070f3;
+  }
+  
+  .activeYear {
+    font-weight: bold;
+    color: #0070f3;
+    transform: scale(1.2);
+  }
+  
+  .content {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .slick-arrow {
+    z-index: 2;
+  }
+  
