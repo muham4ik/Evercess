@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         IntroCond: ['Intro Cond', 'sans-serif'],
+        PT: ['PT Sans', 'sans-serif'],
       },
 
       letterSpacing: {
@@ -23,7 +24,7 @@ const config: Config = {
       },
       screens: {
         'sm': { 'max': '500px' },
-        'md': { 'max': '768px' },
+        'md': { 'max': '851px' },
         'lg': { 'max': '1024px' },
         'xl': { 'max': '1440px' }
       },

@@ -5,13 +5,18 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import "./index.css";
 
-const YearSwiper = ({ years, content }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const sliderRef = useRef(null);
+interface YearSwiperProps {
+  years: string[];
+  content: React.ReactNode[];
+}
 
-  const handleYearClick = (index) => {
+const YearSwiper: React.FC<YearSwiperProps> = ({ years, content }) => {
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+  const sliderRef = useRef<Slider>(null);
+
+  const handleYearClick = (index: number) => {
     setActiveIndex(index);
-    sliderRef.current.slickGoTo(index);
+    sliderRef.current?.slickGoTo(index);
   };
 
   const settings = {
@@ -21,7 +26,7 @@ const YearSwiper = ({ years, content }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    beforeChange: (oldIndex, newIndex) => setActiveIndex(newIndex),
+    beforeChange: (oldIndex: number, newIndex: number) => setActiveIndex(newIndex),
   };
 
   return (

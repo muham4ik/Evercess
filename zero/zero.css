@@ -1,7 +1,7 @@
 
 
 .main{
-    background-image: url("../../public//asstes/images/zero_bacround.png");
+    background-image: url("../public//asstes/images/zero_bacround.png");
     background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@ background-clip: text;
 
 @media only screen and (max-width: 1024px) {
     .main{
-        background-image: url("../../public//asstes/images/zero_1024.png") !important;
+        background-image: url("../public//asstes/images/zero_1024.png") !important;
         background-position:top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -43,7 +43,7 @@ background-clip: text;
 
 @media only screen and (max-width: 769px) {
     .main {
-        background-image: url("../../public//asstes/images/zero_768.png") !important;
+        background-image: url("../public//asstes/images/zero_768.png") !important;
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -87,7 +87,7 @@ background-clip: text;
 
 @media only screen and (max-width: 500px) {
     .main {
-        background-image: url("../../public//asstes/images/zero_3754.png") !important;
+        background-image: url("../public//asstes/images/zero_3754.png") !important;
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -125,5 +125,3 @@ background-clip: text;
        margin: 0 auto;
     }
 }
-
-

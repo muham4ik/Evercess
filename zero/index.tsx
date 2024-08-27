@@ -1,12 +1,12 @@
 "use client"
 
-import Header from "../../components/ui/headerZ";
-import Mini from "../../components/ui/headerMenu";
+import Header from "../components/ui/headerZ";
+import Mini from "../components/ui/headerMenu";
 import Image from 'next/image';
 import { Left, Right } from '@/public/asstes';
-import './index.css';
+import './zero.css';
 
-const Page = () => {
+const Index = () => {
 
   return (
     <div className="container_fluid">
@@ -44,4 +44,4 @@ const Page = () => {
   );
 }
 
-export default Page;
+export default Index;

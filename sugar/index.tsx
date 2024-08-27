@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from "../../components/ui/header"
-import Mini from "../../components/ui/headerMenu"
-import "./index.css"
+import Header from "../components/ui/header"
+import Mini from "../components/ui/headerMenu"
+import "./sugar.css"
 import { Left ,Right } from '@/public/asstes'
 import Image from 'next/image'
-const page = () => {
+const Index = () => {
   return (
    <>
    <div className="container_fluid">
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Index;

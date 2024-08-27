@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '@/components/ui/header'
 import Mini from "@/components/ui/headerMenu"
-import "./index.css"
-import LeftCola from "../../public/asstes/images/cola_05.svg"
-import RightCola from "../../public/asstes/images/cola_051.svg"
+import "./sugarr.css"
+import LeftCola from "@/public/asstes/images/cola_05.svg"
+import RightCola from "@/public/asstes/images/cola_051.svg"
 import Image from 'next/image'
-import Vertical from "../../public/asstes/images/vertical.png"
+import Vertical from "@/public/asstes/images/vertical.png"
 
-const Page = () => {
+const Index = () => {
     return (
         <>
             <div className="container_fluid">
@@ -40,4 +40,4 @@ const Page = () => {
     )
 }
 
-export default Page
+export default Index;

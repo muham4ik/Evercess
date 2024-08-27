@@ -1,0 +1,129 @@
+.main_sugar {
+    background-image: url("../../public/asstes/images/cola_bacround.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .main_sugar {
+        background-image: url("../../public//asstes/images/cola_1440.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .main_sugar {
+        background-image: url("../../public//asstes/images/cola_1024.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sixty {
+        padding-bottom: 272px;
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 851px) {
+    .main_sugar {
+        background-image: url("../../public//asstes/images/cola_768.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sixty {
+        gap: 17px;
+        padding-bottom: 569px;
+        padding-top: 20px;
+        width: 100%;
+        padding-left: 117px;
+        padding-right: 117px;
+        align-items: center;
+    }
+
+    .nimadur {
+        width: 100%;
+    }
+
+    .nima {
+        width: 0;
+    }
+
+    .mdtext {
+        text-align: center;
+        font-size: 70px;
+        line-height: 70.68px;
+    }
+
+    .mdtext span {
+        font-size: 42px;
+        line-height: 40.74px;
+    }
+
+    .mdp {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main_sugar {
+        background-image: url("../../public//asstes/images/cola_375.svg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sixty {
+        gap: 17px;
+        padding-bottom: 472px;
+        padding-top: 52px;
+        width: 100%;
+        padding-left: 23px;
+        padding-right: 23px;
+        align-items: center;
+    }
+
+    .nimadur {
+        width: 100%;
+    }
+
+    .nima {
+        width: 0;
+    }
+
+    .mdtext {
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: center;
+        font-size: 42px;
+        line-height: 31.68px;
+    }
+
+    .mdtext span {
+        font-size: 42px;
+        line-height: 55.74px;
+    }
+
+    .mdp {
+        width: 324px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+}

@@ -1,6 +1,6 @@
 .swiperContainer {
     width: 100%;
-    max-width: 1440px;
+    max-width: 1850px;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -16,7 +16,7 @@
   
   .line {
     position: absolute;
-    top: 50%;
+    top: 0%;   
     left: 0;
     right: 0;
     height: 2px;
