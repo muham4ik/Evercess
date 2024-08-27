@@ -1,0 +1,17 @@
+
+
+
+@media (min-width: 1024px) {
+    .headl {
+      padding-left: 50px;
+      gap: 51px;
+    }
+    .headr{
+        gap: 36px;
+        padding-left: 123px;
+    }
+
+    .nav_list{
+        gap: 47px;
+    }
+  }

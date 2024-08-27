@@ -1,0 +1,109 @@
+.main {
+    background-image: url("../../public/asstes/images/cola_bacround.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.btn {
+    padding: 18px 32px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    border: 2px solid rgba(255, 255, 255, 0.89);
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .main {
+        background-image: url("../../public//asstes/images/cola_1440.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main {
+        background-image: url("../../public//asstes/images/cola_1024.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .hero_s h1{
+        font-size: 54px;
+    }
+    .hero_s{
+        padding-top: 130px;
+        padding-bottom: 290px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .main {
+        background-image: url("../../public//asstes/images/cola_768.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    
+    .hero_s{
+        margin: 0 auto !important;
+        max-width: 560px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 25px !important;
+        padding-bottom: 560px !important;
+
+    }
+
+    .hero_s h1{
+        padding-left: 63px;
+        padding-right: 63px;
+        font-size: 54px;
+        text-align: center;
+    }
+    .hero_s p{
+        text-align: center;
+    }
+    .hero_s{
+        padding-top: 130px;
+        padding-bottom: 290px;
+    }
+    .btn {
+       margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .main {
+        background-image: url("../../public/asstes/images/cola_375.svg");
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }   
+    .hero_s{
+        padding-top: 35px !important;
+        padding-bottom: 440px !important;
+        gap: 17px !important;
+    }
+    .hero_s h1{
+        font-size: 24px !important;
+        text-align: center !important;
+    }
+
+    .hero_s p{
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+}
