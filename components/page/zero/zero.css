@@ -1,0 +1,159 @@
+
+
+.main_zero{
+    background-image: url("../../../public/asstes/images/zero_bacround.png");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.textt{
+text-shadow: 0px 0px 11.4px rgba(203, 43, 29, 0.65);
+background: linear-gradient(180deg, #E54233 0%, #D63F2F 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+
+@media only screen and (max-width: 1440px) {
+    .main_zero{
+        background-image: url("../../../public/asstes/images/zero_1440.png") !important;
+        background-position:top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .sxtyy{
+        padding-top: 214px !important;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .main_zero{
+        background-image: url("../../../public/asstes/images/zero_1024.png") !important;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .sxtyy {
+        padding-bottom: 230px;
+        padding-top: 180px !important;
+        gap: 34px;
+    }
+}
+
+
+@media only screen and (max-width: 851px) {
+    .main_zero {
+        background-image: url("../../../public/asstes/images/zero_768.png") !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .sxtyy {
+        gap: 17px;
+        padding-bottom: 750px;
+        padding-top: 125px;
+        width: 100%;
+        padding-left: 117px;
+        padding-right: 117px;
+        align-items: center;
+    }
+    .textt{
+        text-align: center;
+    }
+    .nimadur {
+        width: 100%;
+    }
+
+    .nima {
+        width: 0;
+    }
+
+    .mdtextt {
+        text-align: center;
+        font-size: 80px;
+        line-height: 70.68px;
+    }
+
+    .mdtextt span {
+        font-size: 42px;
+        line-height: 40.74px;
+    }
+
+    .mdp {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+    .main_zero {
+        background-image: url("../../../public/asstes/images/zero_3754.png") !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    
+    .sxtyy {
+        gap: 17px;
+        padding-bottom: 350px;
+        padding-top: 25px !important;
+        width: 100%;
+        padding-left: 117px;
+        padding-right: 117px;
+        align-items: center;
+    }
+
+    .textt{
+        text-align: center;
+        font-size: 26px;
+    }
+    .nimadur {
+        width: 100%;
+    }
+
+    .nima {
+        width: 0;
+    }
+
+    .mdtextt {
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: center;
+        font-size: 42px;
+        line-height: 31.68px;
+    }
+
+    .mdtextt span {
+        font-size: 42px;
+        line-height: 55.74px;
+    }
+
+    .mdp {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+    
+
+    
+}

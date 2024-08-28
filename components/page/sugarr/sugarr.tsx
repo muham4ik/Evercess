@@ -1,22 +1,17 @@
 import React from 'react'
 import Header from '@/components/ui/header'
-import Mini from "@/components/ui/headerMenu"
-import "./sugarr.css"
 import LeftCola from "@/public/asstes/images/cola_05.svg"
 import RightCola from "@/public/asstes/images/cola_051.svg"
 import Image from 'next/image'
 import Vertical from "@/public/asstes/images/vertical.png"
+import "./sugarr.css"
 
 const Index = () => {
     return (
         <>
             <div className="container_fluid">
                 <div className="sugarr flex flex-col gap-[80px] lg:gap-[60px] md:gap-[24px]">
-                    <ul>
-                        <li className='md:hidden sm:hidden'><Header /></li>
-                        <li className='hidden md:block sm:block'><Mini /></li>
-                    </ul>
-                    <div className="header_container head flex flex-col gap-[67px] lg:gap-[47px] md:gap-[102px]">
+                    <div className="header_container heade flex pt-[214px] flex-col gap-[67px] lg:gap-[47px] xl:pt-[200px] lg:pt-[193px] md:pt-[195px] sm:pt-[150px] md:gap-[102px]">
                         <h2 className="text-[#fff] text sm:text-[32px] font-pt-sans text-[100px] xl:text-[66px] lg:text-[50px] font-bold leading-[97px] tracking-[0.03em] text-center md:text-[50px]">
                             Evervess Cola
                         </h2>

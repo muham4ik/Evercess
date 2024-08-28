@@ -1,4 +1,4 @@
-import Header from "../ui/header"
+import Header from "../../ui/header"
 import React from 'react'
 import "./sugar.css"
 import Image from 'next/image';

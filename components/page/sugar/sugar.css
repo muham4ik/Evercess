@@ -1,5 +1,5 @@
 .main_sugar {
-    background-image: url("../../public/asstes/images/cola_bacround.png");
+    background-image: url("../../../public/asstes/images/cola_bacround.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 1440px) {
     .main_sugar {
-        background-image: url("../../public//asstes/images/cola_1440.png");
+        background-image: url("../../../public//asstes/images/cola_1440.png");
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 1024px) {
     .main_sugar {
-        background-image: url("../../public//asstes/images/cola_1024.png");
+        background-image: url("../../../public//asstes/images/cola_1024.png");
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 851px) {
     .main_sugar {
-        background-image: url("../../public//asstes/images/cola_768.png");
+        background-image: url("../../../public//asstes/images/cola_768.png");
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -80,7 +80,7 @@
 
 @media only screen and (max-width: 500px) {
     .main_sugar {
-        background-image: url("../../public//asstes/images/cola_375.svg");
+        background-image: url("../../../public//asstes/images/cola_375.svg");
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
