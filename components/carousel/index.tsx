@@ -47,6 +47,7 @@ const YearSwiper: React.FC<YearSwiperProps> = ({ years, content }) => {
 
   return (
     <div className="main">
+      <div className="container">
       <div className="swiperContainer">
         <div className="years flex items-center">
           <div className="line">
@@ -74,6 +75,8 @@ const YearSwiper: React.FC<YearSwiperProps> = ({ years, content }) => {
           ))}
         </Slider>
       </div>
+      </div>
+
     </div>
   );
 };
