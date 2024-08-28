@@ -17,7 +17,7 @@
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
     .main_sugar {
         background-image: url("../../../public//asstes/images/cola_1024.png");
         background-position: top;

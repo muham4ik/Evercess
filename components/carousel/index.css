@@ -1,75 +1,165 @@
 .swiperContainer {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.years {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #2F3241;
+  z-index: 1;
+}
+
+.progress {
+  height: 100%;
+  background-color: #fff;
+  transition: width 0.3s ease;
+  z-index: 0;
+}
+
+.year {
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  z-index: 2;
+  margin-top: 12px;
+  text-align: center;
+  color: #2F3241; 
+}
+
+.year::before {
+  content: '';
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 12px;
+  height: 12px;
+  background-color: #2F3241; /* default color */
+  z-index: 2;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.activeYear {
+  font-weight: bold;
+  color: #fff; /* active color */
+  transform: scale(1.2);
+}
+
+.activeYear::before {
+  background-color: #fff; /* active color */
+  transform: translateX(-50%) rotate(45deg) scale(1.1);
+}
+
+.content {
+  padding-top: 48px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.slick-arrow {
+  z-index: 2;
+}
+
+
+
+
+@media (max-width: 1440px) {
+  .swiperContainer {
     width: 100%;
-    max-width: 1850px;
+    max-width: 1250px;
     margin: 0 auto;
-    padding: 20px;
     box-sizing: border-box;
   }
-  
   .years {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    font-size: 12px;
   }
-  
-  .line {
-    position: absolute;
-    top: 0%;   
-    left: 0;
-    right: 0;
-    height: 2px;
-    background-color: #ccc;
-    z-index: 1;
-  }
-  
-  .progress {
-    height: 100%;
-    background-color: #0070f3;
-    transition: width 0.3s ease;
-  }
-  
+
   .year {
-    position: relative;
-    cursor: pointer;
-    font-size: 16px;
-    transition: transform 0.3s ease-in-out;
-    z-index: 2;
-    margin-top: 12px; /* Adjust to fine-tune spacing between year and line */
-    text-align: center;
-  }
-  
-  .year::before {
-    content: '';
-    position: absolute;
-    top: -18px; /* Position the diamond precisely in the middle of the line */
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    width: 12px;
-    height: 12px;
-    background-color: #ccc;
-    z-index: 2;
-    transition: background-color 0.3s ease;
-  }
-  
-  .activeYear::before {
-    background-color: #0070f3;
-  }
-  
-  .activeYear {
-    font-weight: bold;
-    color: #0070f3;
-    transform: scale(1.2);
+    margin-top: 10px;
   }
   
   .content {
-    padding: 20px;
-    text-align: center;
-    font-size: 18px;
+    font-size: 14px;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+
+  .years {
+    font-size: 12px;
+  }
+
+  .year {
+    margin-top: 10px;
   }
   
-  .slick-arrow {
-    z-index: 2;
+  .content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .years {
+    font-size: 10px;
+  }
+
+  .year {
+    margin-top: 8px;
   }
   
+  .content {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .swiperContainer {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .years {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 851px) {
+  .swiperContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .years {
+    font-size: 14px;
+  }
+  .content {
+    padding-top: 95px;
+  }
+}
+
+@media (max-width: 500px) {
+  .years {
+    font-size: 12px;
+  }
+}

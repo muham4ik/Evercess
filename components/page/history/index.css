@@ -1,0 +1,35 @@
+.main{
+    background-image: url("../../../public/asstes/images/history_bacround.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width:1024px){
+    .content-wrapper{
+        height: 350px;
+    }
+    
+    .lgtext{
+        font-size: 56px !important;
+    }
+    .lgap{
+        padding-top: 150px !important;
+        gap: 39px !important;
+    }
+}
+
+
+@media only screen and (max-width:851px){
+    .content-wrapper{
+        height: 250px;
+    }
+    
+    .lgtext{
+        font-size: 50px !important;
+    }
+    .lgap{
+        padding-top: 194px !important;
+        gap: 103px !important;
+    }
+}
