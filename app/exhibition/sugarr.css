@@ -1,0 +1,67 @@
+.sugarr{
+    background-image: url("../../public/asstes/images/cola_bacround2.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width : 1440px) {
+    .sugarr{
+        background-image: url("../../public/asstes/images/bacround_1440.png");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    .sugarr{
+        background-image: url("../../public/asstes/images/bacroun_1024.png");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        gap: 24px;
+    }
+    .text{
+        font-size: 56px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .sugarr{
+        background-image: url("../../public/asstes/images/bacround_768.png");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        gap: 0;
+    }
+    .text{
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (max-width : 500px) {
+    .sugarr{
+        background-image: url("../../public/asstes/images/bacround_375.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .text{
+        font-size: 32px;
+    }
+
+    .heade{
+        gap: 38px;
+        padding-top: 0px;
+    }
+
+    .bak{
+        gap: 52px;
+    }
+    .image{
+        margin-bottom: 175px;
+    }
+}

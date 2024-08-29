@@ -10,7 +10,8 @@ const Index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="container-fluid">
-      <header className='pb-[80px] lg:pb-[70px] '>
+      {/* style={{position: 'fixed', width: '100%'}} style with header Fixed */}
+      <header className='pb-[80px] lg:pb-[70px]' >
         <div className='md:hidden sm:hidden'>
           <div className="header_container lg:w-[837px]">
             <nav className="navbar flex items-center justify-between pt-[33px] lg:pt-[27px] ">
@@ -72,7 +73,7 @@ const Index = () => {
                 <span className="text-white text-3xl">&#9776;</span>
               </button>
               <div
-                className={`fixed top-0 left-0 right-0 bg-[#070a4af5] z-50 transition-transform transform ${isMenuOpen ? 'translate-y-0' : '-translate-y-full'
+                className={` h-screen fixed top-0 left-0 right-0 bg-[#070a4af5] z-50 transition-transform transform ${isMenuOpen ? 'translate-y-0' : '-translate-y-full'
                   } hidden sm:block h-[80vh]`}
               >
                 <button

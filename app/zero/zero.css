@@ -1,7 +1,7 @@
 
 
 .main_zero{
-    background-image: url("../../../public/asstes/images/zero_bacround.png");
+    background-image: url("../../public/asstes/images/zero_bacround.png");
     background-position:top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,29 +22,31 @@ background-clip: text;
 
 @media only screen and (max-width: 1440px) {
     .main_zero{
-        background-image: url("../../../public/asstes/images/zero_1440.png") !important;
+        background-image: url("../../public/asstes/images/zero_1440.png") !important;
         background-position:top;
         background-repeat: no-repeat;
         background-size: cover;
     
     }
     .sxtyy{
-        padding-top: 214px !important;
+        padding-top: 52px !important;
     }
 }
 
 
+
+
 @media only screen and (max-width: 1025px) {
     .main_zero{
-        background-image: url("../../../public/asstes/images/zero_1024.png") !important;
+        background-image: url("../../public/asstes/images/zero_1024.png") !important;
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
     
     }
     .sxtyy {
-        padding-bottom: 230px;
-        padding-top: 180px !important;
+        padding-bottom: 100px;
+        padding-top: 80px !important;
         gap: 34px;
     }
 }
@@ -52,7 +54,7 @@ background-clip: text;
 
 @media only screen and (max-width: 851px) {
     .main_zero {
-        background-image: url("../../../public/asstes/images/zero_768.png") !important;
+        background-image: url("../../public/asstes/images/zero_768.png") !important;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -60,8 +62,8 @@ background-clip: text;
     }
     .sxtyy {
         gap: 17px;
-        padding-bottom: 750px;
-        padding-top: 125px;
+        padding-bottom: 710px;
+        padding-top: 20px !important;
         width: 100%;
         padding-left: 117px;
         padding-right: 117px;
@@ -69,6 +71,7 @@ background-clip: text;
     }
     .textt{
         text-align: center;
+        font-size: 42px;
     }
     .nimadur {
         width: 100%;
@@ -80,12 +83,12 @@ background-clip: text;
 
     .mdtextt {
         text-align: center;
-        font-size: 80px;
+        font-size: 62px;
         line-height: 70.68px;
     }
 
     .mdtextt span {
-        font-size: 42px;
+        font-size: 42px !important;
         line-height: 40.74px;
     }
 
@@ -103,7 +106,7 @@ background-clip: text;
 
 @media only screen and (max-width: 500px) {
     .main_zero {
-        background-image: url("../../../public/asstes/images/zero_3754.png") !important;
+        background-image: url("../../public/asstes/images/zero_3754.png") !important;
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -146,6 +149,7 @@ background-clip: text;
     }
 
     .mdp {
+        width: 324px;
         text-align: center;
         font-size: 18px;
     }

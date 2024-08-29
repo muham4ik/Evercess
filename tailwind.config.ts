@@ -26,7 +26,9 @@ const config: Config = {
         'sm': { 'max': '500px' },
         'md': { 'max': '851px' },
         'lg': { 'max': '1024px' },
-        'xl': { 'max': '1440px' }
+        'xl': { 'max': '1440px' },
+        'tv': { 'max': '400px' },
+        'll': { 'max': '1485px' },
       },
     },
   },

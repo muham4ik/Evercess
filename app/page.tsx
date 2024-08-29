@@ -5,7 +5,7 @@ import History from "@/components/page/history/history"
 export default function Home() {
 
   return (
-    <main className="">
+    <main className="m-0">
       <Sugar/>
       <Zero/>
       <Sugarr/>

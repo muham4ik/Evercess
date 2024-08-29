@@ -1,0 +1,69 @@
+.main {
+  background-image: url("../../public/asstes/images/history_bacround.png");
+  background-position: center center;
+  background-size: cover;
+  /* Barcha ekran o'lchamlari uchun moslashuvchan fon rangi */
+}
+
+.content-wrapper {
+  width: 100%; /* Ekran o'lchamiga qarab kengligi o'zgaradi */
+  height: auto; /* Avtomatik bo'lishi uchun balandlikni boshqarish */
+  position: relative;
+}
+
+.lgap {
+  padding-top: 214px;
+  gap: 78px;
+}
+
+@media (max-width: 1440px) {
+  .lgtext {
+    font-size: 66px !important;
+  }
+  .lgap {
+    padding-top: 150px !important;
+    gap: 67px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .lgtext {
+    font-size: 56px !important;
+  }
+  .lgap {
+    padding-top: 150px !important;
+    gap: 39px !important;
+  }
+  .content-wrapper {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lgtext {
+    font-size: 50px !important;
+  }
+  .lgap {
+    padding-top: 194px !important;
+    gap: 103px !important;
+  }
+  .content-wrapper {
+    width: 100%;
+    height: 303px;
+  }
+}
+
+@media (max-width: 500px) {
+  .lgtext {
+    font-size: 40px !important;
+    line-height: normal;
+  }
+  .xflex {
+    padding-top: 40px !important;
+    gap: 20px !important;
+  }
+  .content-wrapper {
+    width: 100%;
+    height: 383px;
+  }
+}
